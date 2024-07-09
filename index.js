@@ -138,11 +138,11 @@ $(document).on("keydown", function(event) {
 $(document).on("keydown", function() {
     
     if ($(".x" + playerXPosition + ".y" + playerYPosition).hasClass("hazard")) {
-        console.log("Loser!");
+        alert("Loser!");
     }
 
     if ($(".x" + playerXPosition + ".y" + playerYPosition).hasClass("victory")) {
-        console.log("winner");
+        alert("big 'ol win");
     }
 
 })
