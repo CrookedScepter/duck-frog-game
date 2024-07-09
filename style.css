@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(128, 187, 255);
+}
+
+body {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 90vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#background {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px); 
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.green {
+    background-color: #507870;
+}
+
+.hazard {
+    background-image: url(./images/log-in-water.jpg);
+    background-size: cover;
+}
+
+.dark-blue {
+    background-color: darkblue;
+}
+
+.victory {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.player {
+    background-image: url(./images/duck-player.gif);
+    background-size: cover;
+}
